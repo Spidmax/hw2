@@ -1,0 +1,22 @@
+recipe snake[direction]
+     steps = 0
+     repeat if (steps < 7)
+          [direction]
+          steps + 1 = steps
+
+
+down
+snake[down]
+right
+right
+snake[up]
+right
+right
+snake[down]
+right
+right
+snake[up]
+right
+right
+snake[down]
+right
