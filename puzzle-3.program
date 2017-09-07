@@ -1,8 +1,7 @@
 down
 down
 
-getColor
-save
+save getColor as color1
 
 down
 down
@@ -11,7 +10,7 @@ down
 right
 right
 
-setColor
+setColor color1
 
 right
 right
