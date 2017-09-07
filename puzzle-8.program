@@ -6,17 +6,22 @@ recipe snake[direction]
 
 
 down
+
 snake[down]
 right
 right
+
 snake[up]
 right
 right
+
 snake[down]
 right
 right
+
 snake[up]
 right
 right
+
 snake[down]
 right
