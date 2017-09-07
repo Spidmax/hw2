@@ -2,9 +2,9 @@ recipe openSesame
      right
      right
      if (getColor == red/pink)
-          up
+     | up
      if (getColor == blue)
-          down
+     | down
 
 
 
