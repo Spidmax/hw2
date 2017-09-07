@@ -1,0 +1,16 @@
+recipe openSesame
+     right
+     right
+     if (getColor == red/pink)
+          up
+     if (getColor == blue)
+          down
+
+
+
+openSesame
+openSesame
+openSesame
+right
+right
+right
