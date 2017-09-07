@@ -1,0 +1,20 @@
+recipe snake[direction]
+     repeat if (getColor != red/pink)
+          [direction]
+
+
+
+snake[down]
+right
+right
+snake[up]
+right
+right
+snake[down]
+right
+right
+snake[up]
+right
+right
+snake[down]
+right
