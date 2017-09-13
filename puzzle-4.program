@@ -17,6 +17,6 @@ function tetris(){
 }
 
 
-repeatDown(5)
-tetris()
-tetris()
+repeatDown(5);
+tetris();
+tetris();
