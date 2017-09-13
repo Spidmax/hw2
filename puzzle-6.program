@@ -1,22 +1,28 @@
-right
+right();
 
-if (getColor == red/pink)
-     up
-     up
-     up
-     direction = 0
-else
-     down
-     down
-     down
-     direction = 1
-     
-if (getColor == red/pink)
-     left
-if (getColor == blue)
-     right
-     
-if (direction == 0)
-     up
-else
-     down
+if (getColor() == "red") {
+  up();
+  up();
+  up();
+  direction = 0;
+}
+else {
+  down();
+  down();
+  down();
+  direction = 1;
+}
+
+if (getColor() == "red") {
+	left();
+}
+else {
+	right();
+}
+
+if (direction == 0) {
+	up();
+}
+else {
+  down();
+}
