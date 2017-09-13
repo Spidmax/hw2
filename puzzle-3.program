@@ -1,18 +1,18 @@
-down
-down
+down();
+down();
 
-save getColor as color1
+var yay = getColor();
 
-down
-down
-down
+down();
+down();
+down();
 
-right
-right
+right();
+right();
 
-setColor color1
+setColor(yay);
 
-right
-right
+right();
+right();
 
-up
+up();
