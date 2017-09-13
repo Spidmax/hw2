@@ -1,27 +1,29 @@
-recipe snake[direction]
-     steps = 0
-     repeat if (steps < 7)
-          [direction]
-          steps + 1 = steps
+function snake(direction) {
+	steps = 0;
+  while (steps < 7) {
+  	direction();
+    steps = steps + 1;
+  }
+}
 
 
-down
+down();
 
-snake[down]
-right
-right
+snake(down);
+right();
+right();
 
-snake[up]
-right
-right
+snake(up);
+right();
+right();
 
-snake[down]
-right
-right
+snake(down);
+right();
+right();
 
-snake[up]
-right
-right
+snake(up);
+right();
+right();
 
-snake[down]
-right
+snake(down);
+right();
