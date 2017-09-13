@@ -1,19 +1,22 @@
-recipe tetris
-    up
-    right
-    getColor
-    save
-    down
-    setColor
-    right
-    right
+function repeatDown(total) {
+    var count = 0;
+    while (count < total) {
+        down();
+        count = count + 1;
+  }
+}
+
+function tetris(){
+    up();
+    right();
+    var key = getColor();
+    down();
+	setColor(key);
+    right();
+    right();
+}
 
 
-
-down
-down
-down
-down
-down
-tetris
-tetris
+repeatDown(5)
+tetris()
+tetris()
