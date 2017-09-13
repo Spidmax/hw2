@@ -1,24 +1,25 @@
-recipe snake[direction]
-     repeat if (getColor != red/pink)
-          [direction]
+function snake(direction) {
+	while (getColor() != "red") {
+  	direction();
+  }
+}
 
 
+snake(down);
+right();
+right();
 
-snake[down]
-right
-right
+snake(up);
+right();
+right();
 
-snake[up]
-right
-right
+snake(down);
+right();
+right();
 
-snake[down]
-right
-right
+snake(up);
+right();
+right();
 
-snake[up]
-right
-right
-
-snake[down]
-right
+snake(down);
+right();
