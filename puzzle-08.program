@@ -1,9 +1,9 @@
 function snake(direction) {
 	steps = 0;
-  while (steps < 7) {
-  	direction();
-    steps = steps + 1;
-  }
+	while (steps < 7) {
+		direction();
+		steps = steps + 1;
+	}
 }
 
 
