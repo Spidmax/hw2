@@ -1,16 +1,16 @@
 right();
 
 if (getColor() == "red") {
-  up();
-  up();
-  up();
-  direction = 0;
+	up();
+	up();
+	up();
+	direction = 0;
 }
 else {
-  down();
-  down();
-  down();
-  direction = 1;
+	down();
+	down();
+	down();
+	direction = 1;
 }
 
 if (getColor() == "red") {
@@ -24,5 +24,5 @@ if (direction == 0) {
 	up();
 }
 else {
-  down();
+	down();
 }
