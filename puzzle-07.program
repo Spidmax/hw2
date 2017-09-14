@@ -1,7 +1,7 @@
 function snake(direction) {
 	while (getColor() != "red") {
-  	direction();
-  }
+		direction();
+	}
 }
 
 
