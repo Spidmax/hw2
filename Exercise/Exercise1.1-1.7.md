@@ -71,10 +71,11 @@ function draw() {
 	stroke(245, 245, 100, 100);
 	ellipse(50, 40, 30, 30);
 	rect(50, 65, 16, 26);
+  	stroke(0, 0, 0, 100);
 	ellipse(43, 40, 12, 12);
 	ellipse(57, 40, 12, 12);
 	fill(0);
-	ellipse(40, 40, 5, 5);
-	ellipse(60, 40, 5, 5);
+	ellipse(45, 40, 5, 5);
+	ellipse(55, 40, 5, 5);
 }
 ```
