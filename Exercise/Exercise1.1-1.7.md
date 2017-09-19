@@ -59,22 +59,22 @@ rect(101, 101, 198, 198);
 
 ## Exercise 1-7
 ```
-size(200, 200);
-background(255);
-rectMode(CENTER);
+function setup() {
+	background(255);
+	rectMode(CENTER);
+}
 
 //lightbulbBody
-fill(0);
-colorMode(RGB, 255, 255, 255, 100);
-stroke(245, 245, 100, 100);
-ellipse(100, 60, 60, 60);
-rect(100, 130, 20, 50);
-
-//eyes
-stroke(255);
-ellipse(80, 50, 25, 25);
-ellipse(120, 50, 25, 25);
-fill(255);
-ellipse(80, 60, 5, 5);
-ellipse(120, 60, 5, 5);
+function draw() {
+	fill(255);
+	colorMode(RGB, 255, 255, 255, 100);
+	stroke(245, 245, 100, 100);
+	ellipse(50, 40, 30, 30);
+	rect(50, 65, 16, 26);
+	ellipse(43, 40, 12, 12);
+	ellipse(57, 40, 12, 12);
+	fill(0);
+	ellipse(40, 40, 5, 5);
+	ellipse(60, 40, 5, 5);
+}
 ```
